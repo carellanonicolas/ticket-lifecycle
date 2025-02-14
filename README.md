@@ -2,53 +2,39 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+### Ticket Lifecycle: Intake Through Resolution
+This section outlines the lifecycle of a ticket from intake to resolution.
 
+#### 1. **Ticket Creation and Observation**
+- As an end-user, create tickets such as:
+  - **Banking System Down**
+  - **Adobe Upgrade for Accounting**
+  - **CFO’s Laptop Won’t Turn On**
 
-<h2>Video Demonstration</h2>
+- As a Help Desk Agent (john), observe ticket properties:
+  - Priority
+  - Department
+  - SLA
+  - Assigned To
 
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
+#### 2. **Setting Ticket Properties**
+- Assign priorities and SLAs based on severity:
+  - **Sev-A (1 hour, 24/7)** → Online Banking
+  - **Sev-B (4 hours, 24/7)** → Support
 
-<h2>Environments and Technologies Used</h2>
+#### 3. **Escalation and Access Management**
+- Change **SysAdmins** department to a **Top Level Department**
+- Delete the **Maintenance Department** (do not archive)
+- Assign view-access permissions for SysAdmins
+- Observe restricted ticket changes in the agent panel
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+#### 4. **Ticket Communication & Resolution**
+- Work tickets to completion using designated agents
+- Explain email capability for automatic updates to users
+- Discuss real-life ticket intake methods:
+  - Phone, chat, email, web form, or in-person
+  - Always create tickets for tracking metrics
 
-<h2>Operating Systems Used </h2>
-
-- Windows 10</b> (21H2)
-
-<h2>Ticket Lifecycle Stages</h2>
-
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
-
-<h2>Lifecycle Stages</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+#### 5. **Practice & Technical Skill Development**
+- Repeat the lab multiple times to build familiarity
+- Explore additional osTicket features, such as email integration
